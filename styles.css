@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e4e4e4; 
+}
+
+.instagram-feed {
+    max-width: 6000px;
+    margin: 0 auto;
+}
+
+.instagram-feed2 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.feed-title {
+    background-color: #fff; 
+    padding: 10px 0; 
+    text-align: center;
+}
+
+.title-bar {
+    background-color: #fff; 
+    padding: 10px 0;
+}
+
+h1 {
+    color: #000;
+    background: #fff; 
+    display: inline; 
+    padding: 10px 100px; 
+}
+
+.post {
+    background-color: #fff; 
+    padding: 20px;
+    margin: 50px 0; 
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px; 
+}
+
+.post-title {
+    color: #000;
+    font-size: 24px;
+}
+
+.post-date {
+    color: #888;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0; 
+}
+
+.post-description {
+    margin-top: 10px;
+    color: #000;
+    padding-top: 10px; 
+}
